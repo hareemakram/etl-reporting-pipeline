@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-etl}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-etl}
+      POSTGRES_DB: ${POSTGRES_DB:-reporting}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-etl} -d ${POSTGRES_DB:-reporting}"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-etl}:${POSTGRES_PASSWORD:-etl}@db:5432/${POSTGRES_DB:-reporting}
+      API_BASE_URL: http://localhost:8000/mock-api
+      MOCK_API_FAILURE_RATE: ${MOCK_API_FAILURE_RATE:-0.15}
+      DEMO_BOOTSTRAP: ${DEMO_BOOTSTRAP:-true}
+      DEMO_LEAVE_PENDING: ${DEMO_LEAVE_PENDING:-2}
+    ports:
+      - "8000:8000"
+    volumes:
+      # Drop new CSV batches into ./data/raw/orders and press "Run pipeline".
+      - ./data/raw:/app/data/raw
+
+volumes:
+  pgdata:

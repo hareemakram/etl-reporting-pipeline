@@ -1,0 +1,254 @@
+[
+  {
+    "product_id": "P0001",
+    "name": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "list_price_usd": 251.08,
+    "active": true
+  },
+  {
+    "product_id": "P0002",
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "list_price_usd": 125.32,
+    "active": true
+  },
+  {
+    "product_id": "P0003",
+    "name": "4K Streaming Stick",
+    "category": "Electronics",
+    "list_price_usd": 48.34,
+    "active": true
+  },
+  {
+    "product_id": "P0004",
+    "name": "Smart Speaker",
+    "category": "Electronics",
+    "list_price_usd": 97.36,
+    "active": true
+  },
+  {
+    "product_id": "P0005",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "list_price_usd": 140.97,
+    "active": true
+  },
+  {
+    "product_id": "P0006",
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "list_price_usd": 59.63,
+    "active": true
+  },
+  {
+    "product_id": "P0007",
+    "name": "Portable SSD 1TB",
+    "category": "Electronics",
+    "list_price_usd": 121.8,
+    "active": true
+  },
+  {
+    "product_id": "P0008",
+    "name": "Fitness Tracker",
+    "category": "Electronics",
+    "list_price_usd": 86.79,
+    "active": true
+  },
+  {
+    "product_id": "P0009",
+    "name": "Pour-Over Coffee Kit",
+    "category": "Home & Kitchen",
+    "list_price_usd": 63.7,
+    "active": true
+  },
+  {
+    "product_id": "P0010",
+    "name": "Cast Iron Skillet",
+    "category": "Home & Kitchen",
+    "list_price_usd": 43.73,
+    "active": true
+  },
+  {
+    "product_id": "P0011",
+    "name": "Air Purifier",
+    "category": "Home & Kitchen",
+    "list_price_usd": 185.81,
+    "active": true
+  },
+  {
+    "product_id": "P0012",
+    "name": "Chef's Knife",
+    "category": "Home & Kitchen",
+    "list_price_usd": 79.03,
+    "active": true
+  },
+  {
+    "product_id": "P0013",
+    "name": "Linen Bedding Set",
+    "category": "Home & Kitchen",
+    "list_price_usd": 154.48,
+    "active": true
+  },
+  {
+    "product_id": "P0014",
+    "name": "Robot Vacuum",
+    "category": "Home & Kitchen",
+    "list_price_usd": 293.6,
+    "active": true
+  },
+  {
+    "product_id": "P0015",
+    "name": "Ceramic Dinnerware Set",
+    "category": "Home & Kitchen",
+    "list_price_usd": 120.07,
+    "active": true
+  },
+  {
+    "product_id": "P0016",
+    "name": "Yoga Mat Pro",
+    "category": "Sports & Outdoors",
+    "list_price_usd": 68.18,
+    "active": true
+  },
+  {
+    "product_id": "P0017",
+    "name": "Trail Running Shoes",
+    "category": "Sports & Outdoors",
+    "list_price_usd": 132.74,
+    "active": true
+  },
+  {
+    "product_id": "P0018",
+    "name": "Insulated Water Bottle",
+    "category": "Sports & Outdoors",
+    "list_price_usd": 35.19,
+    "active": true
+  },
+  {
+    "product_id": "P0019",
+    "name": "Camping Hammock",
+    "category": "Sports & Outdoors",
+    "list_price_usd": 60.1,
+    "active": true
+  },
+  {
+    "product_id": "P0020",
+    "name": "Adjustable Dumbbells",
+    "category": "Sports & Outdoors",
+    "list_price_usd": 241.63,
+    "active": true
+  },
+  {
+    "product_id": "P0021",
+    "name": "Cycling Helmet",
+    "category": "Sports & Outdoors",
+    "list_price_usd": 90.63,
+    "active": true
+  },
+  {
+    "product_id": "P0022",
+    "name": "Vitamin C Serum",
+    "category": "Beauty",
+    "list_price_usd": 38.45,
+    "active": true
+  },
+  {
+    "product_id": "P0023",
+    "name": "Hair Dryer Ionic",
+    "category": "Beauty",
+    "list_price_usd": 127.76,
+    "active": true
+  },
+  {
+    "product_id": "P0024",
+    "name": "Skincare Starter Set",
+    "category": "Beauty",
+    "list_price_usd": 70.51,
+    "active": true
+  },
+  {
+    "product_id": "P0025",
+    "name": "Electric Toothbrush",
+    "category": "Beauty",
+    "list_price_usd": 91.44,
+    "active": true
+  },
+  {
+    "product_id": "P0026",
+    "name": "Fragrance 50ml",
+    "category": "Beauty",
+    "list_price_usd": 94.07,
+    "active": true
+  },
+  {
+    "product_id": "P0027",
+    "name": "Data Engineering Handbook",
+    "category": "Books & Media",
+    "list_price_usd": 52.68,
+    "active": true
+  },
+  {
+    "product_id": "P0028",
+    "name": "Bestseller Novel",
+    "category": "Books & Media",
+    "list_price_usd": 17.56,
+    "active": true
+  },
+  {
+    "product_id": "P0029",
+    "name": "Cookbook Collection",
+    "category": "Books & Media",
+    "list_price_usd": 32.67,
+    "active": true
+  },
+  {
+    "product_id": "P0030",
+    "name": "Vinyl Record",
+    "category": "Books & Media",
+    "list_price_usd": 29.18,
+    "active": true
+  },
+  {
+    "product_id": "P0031",
+    "name": "Graphic Novel Box Set",
+    "category": "Books & Media",
+    "list_price_usd": 65.18,
+    "active": true
+  },
+  {
+    "product_id": "P0032",
+    "name": "Strategy Board Game",
+    "category": "Toys & Games",
+    "list_price_usd": 49.68,
+    "active": true
+  },
+  {
+    "product_id": "P0033",
+    "name": "Building Blocks Set",
+    "category": "Toys & Games",
+    "list_price_usd": 89.19,
+    "active": true
+  },
+  {
+    "product_id": "P0034",
+    "name": "Puzzle 1000pc",
+    "category": "Toys & Games",
+    "list_price_usd": 24.68,
+    "active": true
+  },
+  {
+    "product_id": "P0035",
+    "name": "RC Drone Mini",
+    "category": "Toys & Games",
+    "list_price_usd": 78.42,
+    "active": true
+  },
+  {
+    "product_id": "P0036",
+    "name": "Plush Bear",
+    "category": "Toys & Games",
+    "list_price_usd": 22.07,
+    "active": true
+  }
+]
